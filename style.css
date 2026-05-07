@@ -84,7 +84,7 @@ nav a img {
 
 
 header {
-    background-image: url(/websiteimg/heroimg.png);
+    background-image: url(websiteimg/heroimg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
