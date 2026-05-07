@@ -1,0 +1,681 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+#solidworks p,
+#paperlamp p,
+#blender p,
+#unity p {
+    margin: 2vh 5%;
+}
+
+/*section,
+nav,
+header,
+footer,
+article {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+    padding: 1rem;
+}*/
+
+#container {
+    width: 100%;
+    background-color: #fff8eb;
+    margin: 0 auto;
+    font-family: "Archivo", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+#topper {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 15vh;
+    background-color: #FAD4A3;
+}
+
+#logo {
+    margin: 1vh;
+    margin-left: 5vh;
+}
+
+nav {
+    grid-area: 1/2/2/3;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #231F15;
+    text-align: center;
+}
+
+nav a img {
+    height: 50px;
+    margin-top: 1vh;
+}
+
+#down {
+    justify-self: end;
+    align-self: center;
+    margin-right: 5vh;
+}
+
+
+
+header {
+    background-image: url(../Wouters_Matteo/websiteimg/heroimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#herotitle {
+    grid-area: 2/2/3/3;
+    background-color: #fad4a3a2;
+    border-radius: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 5vh;
+}
+
+#heroline{
+    margin: 2.5% 10%;
+    color: #231F15;
+}
+
+#question {
+    padding: 10vh;
+}
+
+#action {
+    background-color: #FF8C00;
+    color: #fff8eb;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2vh;
+    padding: 2vh;
+    text-decoration: none;
+    display: block;
+}
+
+#action h3 {
+    margin: 0;
+}
+
+#about {
+    background-color: #FAD4A3;
+    border-radius: 16px;
+    margin: 7.5vh;
+    padding: 2.5vh 0;
+}
+
+#about img {
+    vertical-align: middle;
+    padding-left: 15vh;
+}
+
+#about h2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 7.5vh;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 87px;
+    text-align: center;
+    color: #231F15;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #231F15;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #231F15;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #231F15;
+
+
+}
+
+p {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #231F15;
+}
+
+#aboutitems {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+    background-color: #F6E7D0;
+    border-radius: 16px;
+    margin: 0 10vw;
+    padding: 4vh 0;
+}
+
+#txtmain {
+    grid-area: 1/1/3/2;
+    margin: 2vh 5vw;
+}
+
+.divider {
+    width: 20vw;
+    height: 4px;
+    background-color: #ff8c0063;
+    border-radius: 999px;
+    margin: 10vh auto;
+}
+
+#txtmain h5 {
+    background-color: #FF8C00;
+    color: #fff8eb;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2vh;
+}
+
+#cv {
+    text-decoration: none;
+}
+
+#photomain1,
+#photomain2 {
+    margin: 5vw;
+    justify-self: center;
+    align-self: center;
+}
+#photomain1 img{
+    border-radius:16px ;
+}
+#photomain2 img{
+    border-radius:16px ;
+}
+
+#projects {
+    background-color: #FAD4A3;
+    border-radius: 16px;
+    margin: 7.5vh;
+    padding: 2.5vh 0;
+}
+
+#projects img {
+    vertical-align: middle;
+    padding-left: 15vh;
+}
+
+#projects h2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 7.5vh;
+}
+
+#projectitems {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%,50%;
+    background-color: #F6E7D0;
+    border-radius: 16px;
+    margin: 0 10vw;
+    padding: 4vh 0;
+    justify-items: center;
+}
+
+#solidworks {
+    grid-area: 1/1/2/2;
+    border-radius: 16px;
+    justify-self: center;
+}
+
+#solidworks img,
+#paperlamp img {
+    height: 350px;
+    max-width: 100%;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+#solidworks h3 {
+    display: inline-block;
+    background-color: #FAD4A3;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 2vh 1vw;
+    margin-top: 5vh;
+}
+
+#solidworks p,
+#paperlamp p,
+#sewing p,
+#problem p,
+#blender p,
+#unity p {
+    margin: 10vh 18%;
+}
+
+.vertdivider {
+    width: 4px;
+    height: 80vh;
+    background-color: #ff8c0063;
+    border-radius: 999px;
+    grid-area: 1/1/3/3;
+    justify-self: center;
+    align-self: center;
+}
+#projectitems .vertdivider{
+    margin-top: 50vh;
+}
+
+#paperlamp {
+    grid-area: 1/2/2/3;
+    border-radius: 16px;
+    justify-self: center;
+}
+
+.projectright {
+    width: 100%;
+    text-align: end;
+}
+
+#paperlamp h3 {
+    display: inline-block;
+    background-color: #FAD4A3;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    padding: 2vh 1vw;
+    margin-top: 5vh;
+}
+
+#skills {
+    background-color: #FAD4A3;
+    border-radius: 16px;
+    margin: 7.5vh;
+    padding: 2.5vh 0;
+}
+
+#skills img {
+    vertical-align: middle;
+    padding-left: 15vh;
+}
+
+#skills h2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 7.5vh;
+}
+
+#skillitems {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #F6E7D0;
+    border-radius: 16px;
+    margin: 0 10vw;
+    padding: 4vh 0;
+    justify-items: center;
+}
+
+#sewing {
+    grid-area: 1/1/2/2;
+    justify-self: center;
+}
+
+#sewing h3{
+    border-radius: 16px;
+    background-color: #FAD4A3;
+    margin: 0 20%;
+    padding: 2vh 0;
+}
+#problem h3{
+    border-radius: 16px;
+    background-color: #FAD4A3;
+    margin: 0 15%;
+    padding: 2vh 0;
+}
+
+#sewing img,
+#problem img {
+    margin: 10vh auto 0;
+    display: block;
+}
+
+#problem {
+    grid-area: 1/2/2/3;
+}
+
+#contactwrapper {
+    background-color: #F6E7D0;
+}
+
+#contact {
+    background-color: #FAD4A3;
+    border-radius: 16px;
+    padding: 2.5vh 0;
+    margin-top: 7.5vh;
+}
+
+#contact img {
+    vertical-align: middle;
+    padding-left: 15vh;
+}
+
+#contact h2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 7.5vh;
+}
+
+#contactitems {
+    text-align: left;
+    padding: 7.5vh 0;
+    ;
+}
+
+#contactitems p {
+    max-width: 40rem;
+    margin-left: 10vw;
+}
+
+#contactmethods {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 6vh 0;
+
+}
+
+#mail,
+#phone {
+    background-color: #FAD4A3;
+    border-radius: 16px;
+    padding: 2vh 5vh;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: 2vh;
+    text-decoration: none;
+}
+
+#mail img,
+#phone img {
+    display: block;
+}
+
+#mail p,
+#phone p {
+    display: inline;
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    background-color: #FAD4A3;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 12.5vh
+}
+
+#name,
+#up,
+#socials {
+    align-self: center;
+}
+
+#name {
+    justify-self: left;
+    padding-left: 2vw;
+}
+
+#name h3 {
+    margin: 0;
+    line-height: 1;
+}
+
+#up {
+    justify-self: center;
+}
+
+#socials {
+    justify-self: end;
+}
+
+#socials a {
+    margin: 0 2vw;
+    display: inline-block;
+}
+.window{
+    width: 33vw;
+    overflow: hidden;
+    margin-left: 45px;
+    position: relative;
+    border-radius: 16px;
+}
+.imagerow{
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.4s ease;
+}
+.carouselimg{
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.dot{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #FF8C00;
+    background-color: transparent;
+    cursor: pointer;
+}
+.dot.active{
+    background-color: #FF8C00;
+}
+#blender h3 {
+    display: inline-block;
+    background-color: #FAD4A3;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 2vh 1vw;
+    margin-top: 5vh;
+}
+
+#unity h3 {
+    display: inline-block;
+    background-color: #FAD4A3;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    padding: 2vh 1vw;
+    margin-top: 5vh;
+}
+#programming {
+    grid-area: 2/1/3/2;
+    justify-self: center;
+}
+
+#programming h3 {
+    border-radius: 16px;
+    background-color: #FAD4A3;
+    margin: 0 20%;
+    padding: 2vh 0;
+}
+
+#d {
+    grid-area: 2/2/3/3;
+}
+
+#d h3 {
+    border-radius: 16px;
+    background-color: #FAD4A3;
+    margin: 0 15%;
+    padding: 2vh 0;
+}
+
+#programming img,
+#d img {
+    margin: 10vh auto 0;
+    display: block;
+    width: 66%;
+}
+
+#programming p,
+#d p {
+    margin: 10vh 18%;
+}
+/*
+.cycle {
+    position: relative;
+    display: inline-block;
+}
+
+.cycle-viewport {
+    overflow: hidden;
+    width: 100%;
+}
+
+.cycle-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cycle input[type="radio"] {
+    display: none;
+}
+
+.cycle-images img {
+    height: 350px;
+    max-width: 100%;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+#solidworks-1:checked~.cycle-viewport .cycle-images {
+    transform: translateX(0%);
+}
+
+#solidworks-2:checked~.cycle-viewport .cycle-images {
+    transform: translateX(-100%);
+}
+
+#solidworks-3:checked~.cycle-viewport .cycle-images {
+    transform: translateX(-200%);
+}
+
+#paperlamp-1:checked~.cycle-viewport .cycle-images {
+    transform: translateX(0%);
+}
+
+#paperlamp-2:checked~.cycle-viewport .cycle-images {
+    transform: translateX(-100%);
+}
+
+.cycle label {
+    position: absolute;
+    bottom: 10px;
+    width: 12px;
+    height: 12px;
+    background-color:#fff8eb;
+    border:1px solid #231F15;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 10;
+}
+
+#solidworks-1:checked~label[for="solidworks-1"],
+#solidworks-2:checked~label[for="solidworks-2"],
+#solidworks-3:checked~label[for="solidworks-3"],
+#paperlamp-1:checked~label[for="paperlamp-1"],
+#paperlamp-2:checked~label[for="paperlamp-2"]{
+    background-color:#FF8C00;
+}
+
+#gif label:nth-of-type(1) {
+    left: 45%;
+}
+
+#gif label:nth-of-type(2) {
+    left: 50%;
+}
+
+#gif label:nth-of-type(3) {
+    left: 55%;
+}
+
+#paperlamp label:nth-of-type(1) {
+    left: 45%;
+}
+
+#paperlamp label:nth-of-type(2) {
+    left: 50%;
+}
+*/
